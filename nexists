@@ -1,0 +1,8 @@
+#!/bin/bash
+
+###[ -f kwerhrg ] || echo doesnt exists
+
+if ! [ -f $1 ]
+then
+	echo it doesnt exist
+fi

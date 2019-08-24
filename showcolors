@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. colors
+
+echo the color on this system is set to $COLOR
+
+

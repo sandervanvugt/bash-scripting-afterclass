@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+if [ -z $1 ]
+then
+        echo doesnt exist
+        exit 1
+elif [ ! -e $1 ]
+then
+        echo it does not exist in the filesystem
+        exit 2
+elif [ -d $1 ]
+then
+        echo its a dir
+elif [ ! -f $1 ]
+then
+        echo weirdd file
+elif [ -x $1 ]
+then
+        echo its an executable file
+elif grep '#!/bin/bash' $1
+then
+        echo its bash
+        chmod +x $1
+else
+        echo it makes no sense or it is an ordinary file
+fi

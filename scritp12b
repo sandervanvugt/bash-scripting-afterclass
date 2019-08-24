@@ -1,0 +1,7 @@
+if test -f $1
+then
+echo entered is a regular file $1
+elif
+if test -e $1
+echo entered is a directory  $1
+fi

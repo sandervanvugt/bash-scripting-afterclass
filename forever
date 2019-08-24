@@ -1,0 +1,9 @@
+#!/bin/bash
+
+COUNTER=1
+
+while [ $COUNTER -le 100 ] 
+do
+	COUNTER=$(( COUNTER + 1 ))
+	echo $COUNTER
+done

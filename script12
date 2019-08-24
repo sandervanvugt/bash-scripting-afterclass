@@ -1,0 +1,17 @@
+#!/bin/bash
+
+## test if $1 is provided
+## if it is provided, test if it exists in the file system
+## if it exists in the file system, test if it is a regular file
+## or else, test if it is a directory
+
+if [ -z $1 ] 
+then
+	echo you are ignorant
+	echo provide a value and try again
+elif [ -e $1 ]
+then
+	[ -f $1 ] && echo its a file
+else
+	[ -d $1 ] && echo its a dir
+fi

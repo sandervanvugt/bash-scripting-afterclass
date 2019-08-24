@@ -1,1 +1,2 @@
-# bash-scripting-afterclass
+# Bash scripting
+# bash-scripting
