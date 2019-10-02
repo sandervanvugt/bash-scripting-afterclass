@@ -1,0 +1,8 @@
+bash $
+^    - #!/bin/bash
+|      |
+|	---- child shell (/bin/bash)
+|	     - cmnd1
+|             - cmd 2
+|             - cmd 3
+-------------exit 0

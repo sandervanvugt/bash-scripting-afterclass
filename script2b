@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. colors
+
+echo the color is $COLOR

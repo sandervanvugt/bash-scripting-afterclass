@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# for usage, enter a number of minutes
 
 COUNTER=$1
 COUNTER=$(( COUNTER * 60 ))

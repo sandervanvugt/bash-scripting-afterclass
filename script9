@@ -1,9 +1,13 @@
 #!/bin/bash
+
+# exit code 3: argument not provided
+# exit code 4: file doesnt exist
+
 if [ -z $1 ]
 # if test -z $1
 then
 	echo you have to provide an argument with this script
-	exit 1
+	exit 3
+else
+	echo the argument is $1
 fi
-
-echo the argument is $1

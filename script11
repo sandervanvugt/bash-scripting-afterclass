@@ -7,10 +7,10 @@ read GOOD
 GOOD=$(echo $GOOD | tr [:upper:] [:lower:])
 
 case $GOOD in
-yes)
+yes|ja|y)
 	echo that\'s nice
 	;;
-no)
+no|nee|y)
 	echo that\'s not so nice
 	;;
 *)

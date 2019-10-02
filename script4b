@@ -1,0 +1,9 @@
+#!/bin/bash
+# script that creates multiple users
+
+
+echo showing the interpretation of \$@
+for i in "$@"
+do
+	echo useradd $i
+done
